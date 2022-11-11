@@ -4,7 +4,7 @@ name: Mahesh Build and publish the container image
 "on":
   push:
     tags:
-      - 'v*.*.*'
+      - 'v'
     branches:
       - '*'
 
